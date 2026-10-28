@@ -1,3 +1,4 @@
+
 import Pill from "./Pill";
 import { profile } from "../data";
 
@@ -13,9 +14,12 @@ export default function Contact() {
           <Pill href={`mailto:${profile.email}`} variant="solid">{profile.email}</Pill>
           <Pill href={profile.links.linkedin}>LinkedIn</Pill>
           <Pill href={profile.links.github}>GitHub</Pill>
-          <a href={profile.links.resume} download="my-resume.pdf" className="rounded-full bg-amber-100 px-5 py-3 text-sm font-medium text-stone-800">
-  Download resume
-</a>
+          <a
+            href={profile.links.resume}
+            download="my-resume.pdf"
+          >
+            Download resume
+          </a>
         </div>
       </div>
       <p className="mt-8 font-mono text-xs text-stone-500">

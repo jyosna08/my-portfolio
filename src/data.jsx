@@ -7,7 +7,7 @@ export const profile = {
   intro:
     "Passionate Java Full-Stack Developer with hands-on experience in building end-to-end web applications. Skilled in core Java concepts, object-oriented design, robust backend architectures, and modern front-end integration to deliver clean, efficient code",
   email: "vuttlajyosna@gmail.com",
-  links: { linkedin: "https://www.linkedin.com/in/jyosna-v-419148262/", github: "https://github.com/jyosna08", resume: "/src/assets/my-resume.pdf" },
+  links: { linkedin: "https://www.linkedin.com/in/jyosna-v-419148262/", github: "https://github.com/jyosna08", resume: "/my-resume.pdf" },
 };
 
 // "tone" picks the card colour: green | blue | amber | violet
